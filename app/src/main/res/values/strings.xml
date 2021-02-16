@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MTools</string>
+    <string name="app_version" translatable="false">1.0.0.0001A</string>
+    <string name="menu_options">Options</string>
+    <string name="menu_exit">Exit</string>
+    <string name="menu_about">About</string>
+</resources>

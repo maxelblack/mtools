@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="menu_options">选项</string>
+    <string name="app_name">MTools</string>
+    <string name="menu_exit">退出</string>
+    <string name="menu_about">关于</string>
+</resources>
