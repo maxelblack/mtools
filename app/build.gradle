@@ -10,8 +10,8 @@ android {
         applicationId "ink.maxelbk.tools"
         minSdkVersion 21
         targetSdkVersion 30
-        versionCode 1
-        versionName "1.0"
+        versionCode 3
+        versionName "@string/app_version"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }

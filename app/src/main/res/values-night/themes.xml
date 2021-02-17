@@ -2,16 +2,24 @@
     <!-- Base application theme. -->
     <style name="Theme.MTools" parent="Theme.MaterialComponents.NoActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/blue_700</item>
-        <item name="colorPrimaryVariant">@color/blue_500</item>
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryVariant">@color/blue_black</item>
         <item name="colorOnPrimary">@color/black</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/teal_200</item>
         <item name="colorSecondaryVariant">@color/teal_200</item>
         <item name="colorOnSecondary">@color/black</item>
         <!-- Status bar color. -->
-        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimary</item>
         <!-- Customize your theme here. -->
         <item name="titleTextColor">@color/white</item>
+        <item name="android:colorBackground">@color/black</item>
+        <item name="buttonStyle">@style/Widget.MTools.Button</item>
+    </style>
+
+    <!-- Button default theme. -->
+    <style name="Widget.MTools.Button" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:colorBackground">@color/white_alpha</item>
     </style>
 </resources>

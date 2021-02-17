@@ -8,6 +8,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Toast;
 
 import ink.maxelbk.tools.Interfaces;
 import ink.maxelbk.tools.R;
@@ -43,13 +45,22 @@ public class MainActivity extends AppCompatActivity {
     }
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
-        if (findViewById(R.id.main_menu_options).equals(item)) {
-
+        switch (item.getItemId()) {
+            case R.id.main_menu_options:
+                startActivity(new Intent(MainActivity.this, OptionsActivity.class));
+                return true;
+            case R.id.main_menu_about:
+                //TODO 进入“关于”界面
+                return true;
         }
         return super.onOptionsItemSelected(item);
     }
 
-    public void onExitMenuItemClick(MenuItem item) {
+    //事件
+    public void onTestButtonClicked(View view) {
+        Toast.makeText(this, "Test successfully!", Toast.LENGTH_LONG).show();
+    }
+    public void onExitMenuItemClicked(MenuItem item) {
         Interfaces.main.exit(this);
     }
 }

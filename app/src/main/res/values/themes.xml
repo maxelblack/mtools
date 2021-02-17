@@ -12,10 +12,18 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
-        <item name="titleTextColor">@color/white</item>
+        <item name="buttonStyle">@style/Widget.MTools.Button</item>
     </style>
 
-    <style name="Custom.MTools.ToolBar" parent="Theme.AppCompat.Light">
-        <item name="android:textColorPrimary">@color/white</item>
+    <style name="Theme.MTools.Launch" parent="Theme.MTools">
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorBackgroundFloating</item>
     </style>
+
+    <!-- Button default theme. -->
+    <style name="Widget.MTools.Button" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:textColor">?attr/colorPrimaryVariant</item>
+        <item name="android:colorBackground">@color/black_alpha</item>
+    </style>
+
 </resources>

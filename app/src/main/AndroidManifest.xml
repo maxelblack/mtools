@@ -11,11 +11,11 @@
         android:theme="@style/Theme.MTools">
         <activity
             android:name=".activity.OptionsActivity"
-            android:label="@string/title_activity_options"></activity>
-        <activity android:name=".activity.LaunchActivity">
+            android:label="@string/title_activity_options" />
+        <activity android:name=".activity.LaunchActivity"
+            android:theme="@style/Theme.MTools.Launch">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

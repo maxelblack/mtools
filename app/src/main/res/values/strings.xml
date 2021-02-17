@@ -1,23 +1,17 @@
 <resources>
     <string name="app_name">MTools</string>
-    <string name="app_version" translatable="false">1.0.0.0001A</string>
+    <string name="app_version" translatable="false">1.0.0.0003A</string>
     <string name="menu_options">Options</string>
     <string name="menu_exit">Exit</string>
     <string name="menu_about">About</string>
-    <string name="title_activity_options">OptionsActivity</string>
+    <string name="title_activity_options">Options</string>
 
     <!-- Preference Titles -->
     <string name="option_header_plugin">Plugins</string>
     <string name="option_header_style">Styles</string>
 
     <!-- Messages Preferences -->
-    <string name="option_signature">Your signature</string>
-    <string name="option_reply">Default reply action</string>
 
     <!-- Sync Preferences -->
-    <string name="option_sync">Sync email periodically</string>
     <string name="option_plugin_load_time">When to load plugins</string>
-    <string name="option_attachment_summary_on">Automatically download attachments for incoming emails
-    </string>
-    <string name="option_attachment_summary_off">Only download attachments when manually requested</string>
 </resources>

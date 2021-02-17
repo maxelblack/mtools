@@ -29,10 +29,13 @@
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-
-
         app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
 
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="123dp"
+            android:onClick="onTestButtonClicked"
+            android:text="Test" />
 
     </androidx.core.widget.NestedScrollView>
 

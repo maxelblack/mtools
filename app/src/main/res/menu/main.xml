@@ -12,7 +12,7 @@
         android:title="@string/menu_about"/>
     <item
         android:id="@+id/main_menu_exit"
-        android:onClick="onExitMenuItemClick"
+        android:onClick="onExitMenuItemClicked"
         android:title="@string/menu_exit"/>
 
 </menu>
