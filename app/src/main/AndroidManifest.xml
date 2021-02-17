@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MTools">
-
+        <activity
+            android:name=".activity.OptionsActivity"
+            android:label="@string/title_activity_options"></activity>
         <activity android:name=".activity.LaunchActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -17,10 +19,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <activity android:name=".activity.MainActivity"
-            android:launchMode="singleTask"/>
-
+        <activity
+            android:name=".activity.MainActivity"
+            android:launchMode="singleTask" />
     </application>
 
 </manifest>

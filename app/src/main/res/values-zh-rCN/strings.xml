@@ -4,4 +4,7 @@
     <string name="app_name">MTools</string>
     <string name="menu_exit">退出</string>
     <string name="menu_about">关于</string>
+    <string name="option_header_style">样式</string>
+    <string name="option_header_plugin">插件</string>
+    <string name="option_plugin_load_time">在何时加载插件</string>
 </resources>

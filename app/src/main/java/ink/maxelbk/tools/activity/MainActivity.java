@@ -43,7 +43,9 @@ public class MainActivity extends AppCompatActivity {
     }
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        if (findViewById(R.id.main_menu_options).equals(item)) {
 
+        }
         return super.onOptionsItemSelected(item);
     }
 
