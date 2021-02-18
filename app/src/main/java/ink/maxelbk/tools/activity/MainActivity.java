@@ -52,6 +52,9 @@ public class MainActivity extends AppCompatActivity {
             case R.id.main_menu_about:
                 //TODO 进入“关于”界面
                 return true;
+            case R.id.main_menu_dark_mode:
+                //TODO 暗色模式
+                return true;
         }
         return super.onOptionsItemSelected(item);
     }

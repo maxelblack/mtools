@@ -14,4 +14,5 @@
 
     <!-- Sync Preferences -->
     <string name="option_plugin_load_time">When to load plugins</string>
+    <string name="menu_dark_mode">Dark Mode</string>
 </resources>

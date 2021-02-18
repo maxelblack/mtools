@@ -3,6 +3,10 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
+        android:id="@+id/main_menu_dark_mode"
+        android:title="@string/menu_dark_mode"
+        android:checkable="true"/>
+    <item
         android:id="@+id/main_menu_options"
         android:icon="@drawable/ic_menu_settings"
         app:showAsAction="ifRoom"

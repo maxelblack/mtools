@@ -8,4 +8,5 @@
     <string name="option_header_plugin">插件</string>
     <string name="option_plugin_load_time">在何时加载插件</string>
     <string name="title_activity_options">选项</string>
+    <string name="menu_dark_mode">暗色模式</string>
 </resources>
